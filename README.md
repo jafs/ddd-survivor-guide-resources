@@ -4,32 +4,46 @@ Repositorio de recursos complementarios de **Domain-Driven Design en un Apocalip
 
 ## Imágenes
 
-Este directorio contiene todas las ilustraciones del libro en su tamaño original.
+Este directorio contiene todas las ilustraciones del libro en su tamaño original, organizadas así:
 
-### `images/covers` — Evolución de la portada
+```text
+images/
+├── covers/       Evolución de la portada
+├── v1/           Ilustraciones iniciales (pixel art)
+├── v2/           Ilustraciones finales (las del libro publicado)
+├── extras/       Pruebas descartadas
+└── bookmark.png  Marcapáginas
+```
 
-La portada del libro no salió a la primera. En esta carpeta están todas las versiones por las que pasó, desde el primer boceto hasta la portada definitiva. Puedes recorrerlas en orden (`cover_v1`, `cover_v2`…) y ver cómo fue cambiando el concepto hasta llegar al resultado final.
+### Ilustraciones de los capítulos y bloques (`images/v1` y `images/v2`)
 
-### `images/vX` — Ilustraciones de los capítulos y bloques
+Las ilustraciones pasaron por dos versiones:
 
-Ilustraciones organizadas por bloque y capítulo. Además de las portadas.
+- **`images/v1` — Ilustraciones iniciales.** Las primeras ilustraciones que se usaron durante la escritura del libro. En su momento quería dar un aspecto pixel art que fuera evolucionando a lo largo de los capítulos. Quería conservarlas porque fueron el primer intento.
+- **`images/v2` — Ilustraciones finales.** Preferí darles un toque más cómico a las imágenes. Las que hay en este directorio son las que aparecen en la versión publicada del libro.
+
+Ambas versiones siguen la misma estructura, organizada por bloque y capítulo:
 
 ```text
 images/vX/
-├── blockY/          Bloque X
-│   └── chapterZ/    Capítulo Z dentro del bloque X.
-└── epilogue/  Epílogo
+├── blockY/          Bloque Y
+│   └── chapterZ/    Capítulo Z dentro del bloque Y
+└── epilogue/        Epílogo
 ```
 
 Dentro de cada bloque, la imagen suelta corresponde a la portada del bloque y las subcarpetas `chapterZ` contienen las ilustraciones de cada capítulo: escenas de la historia, diagramas y esquemas de los conceptos técnicos.
 
-### `images/v1` — Ilustraciones iniciales
+### Evolución de la portada (`images/covers`)
 
-Las primeras ilustraciones que se usaron durante la escritura del libro. En su momento quería dar un aspecto pixel art que fuera evolucionando a lo largo de los capítulos. Quería conservarlas porque fueron el primer intento.
+La portada del libro no salió a la primera. En esta carpeta están todas las versiones por las que pasó, desde el primer boceto hasta la portada definitiva. Puedes recorrerlas en orden (`cover_v1`, `cover_v2`…) y ver cómo fue cambiando el concepto hasta llegar al resultado final.
 
-### `images/v2` — Ilustraciones finales
+### Extras (`images/extras`)
 
-Preferí darles un toque más cómico a las imágenes. Las que hay en este directorio son las que aparecen en la versión publicada del libro.
+Imágenes de pruebas que se quedaron por el camino pero que me hacía ilusión conservar.
+
+### Marcapáginas (`images/bookmark.png`)
+
+El marcapáginas del libro, por si quieres imprimirlo y acompañar la lectura con él.
 
 ## Código fuente
 
