@@ -4,7 +4,7 @@ Repositorio de recursos complementarios de **Domain-Driven Design en un Apocalip
 
 ## Imágenes
 
-Este directorio contiene todas las ilustaciones del libro en su tamaño original.
+Este directorio contiene todas las ilustraciones del libro en su tamaño original.
 
 ### `images/covers` — Evolución de la portada
 
@@ -30,6 +30,21 @@ Las primeras ilustraciones que se usaron durante la escritura del libro. En su m
 ### `images/v2` — Ilustraciones finales
 
 Preferí darles un toque más cómico a las imágenes. Las que hay en este directorio son las que aparecen en la versión publicada del libro.
+
+## Código fuente
+
+Todos los ejemplos de código TypeScript del libro, organizados por bloque y capítulo:
+
+```text
+source/
+└── blockXX/
+    └── chapterYY/
+        └── code.B.CC.N.ts
+```
+
+Cada fichero sigue el patrón `code.B.CC.N.ts`, donde `B` es el bloque (1–4), `CC` el capítulo (01–14) y `N` el número de ejemplo dentro del capítulo, en el mismo orden en que aparece en el libro. Por ejemplo, `code.3.09.5.ts` es el quinto ejemplo del capítulo 9 (bloque 3).
+
+Son fragmentos tal cual aparecen en el libro: no forman un proyecto ejecutable ni incluyen configuración de compilación. Algunos son ejemplos deliberadamente malos (sobre todo en el capítulo de antipatrones), así que no copies sin leer el contexto.
 
 ---
 
