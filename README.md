@@ -1,6 +1,6 @@
 # Domain-Driven Design en un Apocalipsis Zombi — Recursos
 
-Repositorio de recursos complementarios de **Domain-Driven Design en un Apocalipsis Zombi**, el manual de DDD ambientado en un apocalipsis zombi. Aquí encontrarás material extra para acompañar la lectura del libro.
+Repositorio de recursos complementarios de [**Domain-Driven Design en un Apocalipsis Zombi**](https://jafs.github.io/books/ddd-zombi.html), el manual de DDD ambientado en un apocalipsis zombi. Aquí encontrarás material extra para acompañar la lectura del libro.
 
 ## Imágenes
 
