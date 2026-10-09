@@ -24,7 +24,37 @@ The code files follow the same naming pattern as the Spanish ones (see below): `
 
 They are fragments, just as they appear in the book: they don't form a runnable project and don't include any compiler configuration. Some are deliberately bad examples (especially in the antipatterns chapter), so don't copy them without reading the context.
 
-The English illustrations are added to `en/images/` as they are produced. Until then, the book uses the Spanish ones.
+`en/images/` holds the 43 illustrations of the English edition, in the same folders as the Spanish ones in `images/v2/`. File names are in English; the ones that differ from the Spanish edition:
+
+| Spanish edition (`images/v2/`) | English edition (`en/images/`) |
+|---|---|
+| `block01/chapter01/lenguaje-ubicuo.jpg` | `block01/chapter01/ubiquitous-language.jpg` |
+| `block01/chapter02/subdominios.jpg` | `block01/chapter02/subdomains.jpg` |
+| `block01/chapter02/subdominio-vs-contexto.jpg` | `block01/chapter02/subdomain-vs-context.jpg` |
+| `block02/chapter04/entidades.jpg` | `block02/chapter04/entities.jpg` |
+| `block02/chapter05/agregados.jpg` | `block02/chapter05/aggregates.jpg` |
+| `block02/chapter05/mapa-agregado.jpg` | `block02/chapter05/aggregate-map.jpg` |
+| `block02/chapter05/sin-agregado.jpg` | `block02/chapter05/no-aggregate.jpg` |
+| `block02/chapter06/rocio-evalua-contagio.jpg` | `block02/chapter06/rocio-assesses-infection.jpg` |
+| `block03/chapter08/octavia-coordinacion-admision.jpg` | `block03/chapter08/octavia-coordinates-admission.jpg` |
+| `block03/chapter09/at-least-once-idempotencia.jpg` | `block03/chapter09/at-least-once-idempotency.jpg` |
+| `block03/chapter09/cqrs-vista-global.jpg` | `block03/chapter09/cqrs-overview.jpg` |
+| `block03/chapter09/escucha-eventos.jpg` | `block03/chapter09/event-listening.jpg` |
+| `block03/chapter09/evento-dentro-agregado.jpg` | `block03/chapter09/event-inside-aggregate.jpg` |
+| `block03/chapter09/patron-outbox.jpg` | `block03/chapter09/outbox-pattern.jpg` |
+| `block03/chapter10/arquitectura-hexagonal.jpg` | `block03/chapter10/hexagonal-architecture.jpg` |
+| `block04/block-04.jpg` | `block04/block04.jpg` |
+| `block04/chapter11/mapa-evacuacion-saga.jpg` | `block04/chapter11/evacuation-map-saga.jpg` |
+| `block04/chapter11/nora-hito-evacuacion.jpg` | `block04/chapter11/nora-evacuation-milestone.jpg` |
+| `block04/chapter11/saga-ciclo-superviviente-compensacion.jpg` | `block04/chapter11/saga-survivor-lifecycle-compensation.jpg` |
+| `block04/chapter12/agregado-gigante-cargando.jpg` | `block04/chapter12/giant-aggregate-loading.jpg` |
+| `block04/chapter12/contextos-carpetas.jpg` | `block04/chapter12/contexts-folders.jpg` |
+| `block04/chapter12/ddd-en-crud.jpg` | `block04/chapter12/ddd-in-crud.jpg` |
+| `block04/chapter12/modelo-anemico-ventana.jpg` | `block04/chapter12/anemic-model-window.jpg` |
+| `block04/chapter13/nora-llegada-carcel.jpg` | `block04/chapter13/nora-arrives-at-prison.jpg` |
+| `block04/chapter13/piramide-testing.jpg` | `block04/chapter13/testing-pyramid.jpg` |
+| `block04/chapter13/simulacro-defensa-pruebas.jpg` | `block04/chapter13/defense-drill-tests.jpg` |
+| `extras/epilogue/silueta-zombi-inteligente.jpg` | `extras/epilogue/smart-zombie-silhouette.jpg` |
 
 ## Images (Spanish edition)
 
@@ -114,7 +144,7 @@ Los ficheros de código siguen el mismo patrón que los españoles (ver más aba
 
 Son fragmentos tal cual aparecen en el libro: no forman un proyecto ejecutable ni incluyen configuración de compilación. Algunos son ejemplos deliberadamente malos (sobre todo en el capítulo de antipatrones), así que no copies sin leer el contexto.
 
-Las ilustraciones en inglés se irán añadiendo a `en/images/` conforme se produzcan. Mientras tanto, el libro usa las españolas.
+`en/images/` contiene las 43 ilustraciones de la edición en inglés, en las mismas carpetas que las españolas de `images/v2/`. Los nombres de fichero van en inglés; la tabla de equivalencias está en la sección en inglés de este README.
 
 ## Imágenes (edición en español)
 
